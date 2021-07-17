@@ -6,9 +6,9 @@ pool:
 
 variables:
   subscription: Visual Studio Enterprise(17b12858-3960-4e6f-a663-a06fdae23428)
-  resourceGroup: resourcegroup-tfstate
-  storageAccount: terraformtfstateskip
-  container: tfstate
+  resourceGroup: resourcegroup-tfstate # resource group criado no azure
+  storageAccount: terraformtfstateskip #storage account criado no azure
+  container: tfstate #cointainer criado na storage account
   tfstateFile: terraform.tfstate
   anyTfChanges: false
 
